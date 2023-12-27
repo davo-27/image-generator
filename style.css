@@ -257,7 +257,8 @@ header .buttons i {
 }
 
 
-  @media  screen  and (max-width: 576px) {
+    
+@media screen and (max-width: 414px) {
     
 .search-box input {
     width: 80%;
@@ -271,11 +272,135 @@ header .buttons i {
 
 .gallery .images {
     gap: 15px;
-    max-width: 85%;
-    margin-top: 40px;
-    columns: 5 140px;
+    max-width: 95%;
+    margin-top: 100px;
+    columns: 5 240px;
+    
 
 }
-}  
+.search-box i {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    font-size: 1.4rem;
+    color: #8d8d8d;
+    transform: translateY(-50%);
+
+}
+
+.gallery .images {
+    gap: 15px;
+    max-width: 95%;
+    margin-top: 40px;
+    columns: 5 340px;
+
+}
+
+.search h1 {
+    margin-top:  7.9rem;
+    font-size: 1.4rem;
+
+}
+
+.search p {
+    margin-top:  2rem;
+    font-size: 1rem;
+
+}
+}
+
+
+    
+
+
+
+    
+@media screen and (max-width: 414px) {
+    
+.search-box input {
+    width: 80%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    padding-left: 55px;
+    border-radius: 5px;
+}
+
+.gallery .images {
+    gap: 15px;
+    max-width: 95%;
+    margin-top: 100px;
+    columns: 5 240px;
+    
+
+}
+.search-box i {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    font-size: 1.4rem;
+    color: #8d8d8d;
+    transform: translateY(-50%);
+
+}
+
+.gallery .images {
+    gap: 15px;
+    max-width: 85%;
+    margin-top: 40px;
+    columns: 5 340px;
+
+}
+
+.search h1 {
+    margin-top:  7.9rem;
+    font-size: 1.4rem;
+
+}
+
+.search p {
+    margin-top:  2rem;
+    font-size: 1rem;
+
+}
+}
+
+
+    
+@media screen and (max-width: 576px) {
+    
+    .search-box input {
+        width: 80%;
+        height: 100%;
+        outline: none;
+        border: none;
+        font-size: 1.1rem;
+        padding-left: 55px;
+        border-radius: 5px;
+    }
+    
+    .gallery .images {
+        gap: 15px;
+        max-width: 95%;
+        margin-top: 100px;
+        columns: 5 140px;
+        
+    
+    }
+    .search-box i {
+        position: absolute;
+        left: 50px;
+        top: 50%;
+        font-size: 1.4rem;
+        color: #8d8d8d;
+        transform: translateY(-50%);
+    
+    }
+    
+}
+
+
+  
 
 
