@@ -257,10 +257,25 @@ header .buttons i {
 }
 
 
+  @media  screen  and (max-width: 576px) {
     
+.search-box input {
+    width: 80%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    padding-left: 55px;
+    border-radius: 5px;
+}
 
-    .header .logo{
-        font-size: 15px;
-        text-decoration: underline ;
-        
-    }
+.gallery .images {
+    gap: 15px;
+    max-width: 85%;
+    margin-top: 40px;
+    columns: 5 140px;
+
+}
+}  
+
+
